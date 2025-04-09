@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Features Exercises</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic Calculator</h1>
+
+        <!-- Input fields for numbers -->
+        <input type="number" id="number1" placeholder="Enter first number">
+        <input type="number" id="number2" placeholder="Enter second number">
+
+        <!-- Buttons for different arithmetic operations -->
+        <div class="buttons">
+            <button id="addBtn">+</button>
+            <button id="subtractBtn">-</button>
+            <button id="multiplyBtn">*</button>
+            <button id="divideBtn">/</button>
+        </div>
+
+        <!-- Display the result -->
+        <p id="result"></p>
+        <hr>
+
+        <!-- Exercise 2: Template Literals -->
+        <h1>Template Literals Exercises</h1>
+
+        <!-- Input fields for user name and product name -->
+        <input type="text" id="userName" placeholder="Enter your name">
+        <input type="text" id="productName" placeholder="Enter a product name">
+
+        <!-- Buttons to trigger message creation -->
+        <div class="buttons">
+            <button id="greetUserBtn">Greet User</button>
+            <button id="productInfoBtn">Product Info</button>
+        </div>
+
+        <!-- Display the result -->
+        <p id="templateResult"></p>
+        <hr>
+
+        <!-- Exercise 3: Default parameters -->
+        <h1>Event Booking System</h1>
+
+        <!-- Input for user's name -->
+        <input type="text" id="eventUserName" placeholder="Enter your name">
+
+        <!-- Dropdown for event selection -->
+        <select id="eventType">
+            <option value="" disabled selected>Select an event</option>
+            <option value="Tech Conference">Tech Conference</option>
+            <option value="Music Festival">Music Festival</option>
+            <option value="Art Exhibition">Art Exhibition</option>
+        </select>
+
+        <!-- Button to confirm booking -->
+        <div class="buttons">
+            <button id="bookEventBtn">Book Event</button>
+        </div>
+
+        <!-- Display the result -->
+        <p id="eventResult"></p>
+        <hr>
+
+        <!-- Exercise 4 -->
+        <h1>Destructuring Exercise</h1>
+
+        <!-- Input fields for user's name, age, and email -->
+        <input type="text" id="destructUserName" placeholder="Enter your name">
+        <input type="number" id="destructUserAge" placeholder="Enter your age">
+        <input type="email" id="destructUserEmail" placeholder="Enter your email">
+
+        <!-- Button to show user details -->
+        <div class="buttons">
+            <button id="showUserDetailsBtn">Show User Details</button>
+        </div>
+
+        <!-- Input field for product array (comma-separated values) -->
+        <input type="text" id="productDetails" placeholder="Enter product details (e.g. Phone,1000,5)">
+        <p>Enter product details in the following format: Product, Price, Quantity</p>
+        <!-- Button to show product details -->
+        <div class="buttons">
+            <button id="showProductDetailsBtn">Show Product Details</button>
+        </div>
+
+        <!-- Display the result -->
+        <p id="destructuringResult"></p>
+        <hr>
+
+        <!-- Exercise 5: Array Methods -->
+        <h1>Product Inventory Management</h1>
+
+        <!-- Button for each array method -->
+        <div class="buttons">
+            <button id="mapProductsBtn">Show Product Names (map)</button>
+            <button id="filterProductsBtn">Show In-Stock Products (filter)</button>
+            <button id="reduceTotalValueBtn">Calculate Total Inventory Value (reduce)</button>
+            <button id="findExpensiveProductBtn">Find First Expensive Product (find)</button>
+            <button id="forEachProductBtn">List All Products (forEach)</button>
+        </div>
+
+        <!-- Display the result -->
+        <p id="arrayMethodsResult"></p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
